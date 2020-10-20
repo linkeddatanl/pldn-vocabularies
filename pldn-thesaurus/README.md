@@ -8,7 +8,7 @@ Please contact Gerard Persoon (<mail@gpersoon.com>) to get access to our PLDN Vo
 
 <h2><strong>Open review process for submitting issues</strong></h2>
 
-Anyone can submit issues for this thesaurus. Please use one of the following issue categories in the category section of the issue title when you submit an issue:<br>
+Anyone can submit issues for this thesaurus. Please use one of the following issue categories in the category section of the issue form when you submit an issue:<br>
 - <strong>Concepts -</strong> : Suggestions for new concepts and improved concept definitions<br>
 - <strong>Alignment -</strong> : Suggestions for new mappings to external linked data sources<br>
 - <strong>Hierarchical structure -</strong> : Suggestions for improved concept classification<br>
