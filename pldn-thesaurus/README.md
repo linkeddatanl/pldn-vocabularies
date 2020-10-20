@@ -4,7 +4,7 @@ This thesaurus is defined in our PLDN VocBench environment:
 
 http://vocbench.pldn.nl/vocbench3
 
-Please contact Gerard Persoon to get access to Vocbench.
+Please contact Gerard Persoon (<mail@gpersoon.com>) to get access to our PLDN Vocbench environment.
 
 <h2><strong>Open review process for submitting issues</strong></h2>
 
