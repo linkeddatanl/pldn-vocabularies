@@ -1,4 +1,4 @@
-<h2><strong>PLDN Linked Data Thesaurus Working Group repository</strong></h2>
+<h2><strong>PLDN Linked Data Thesaurus Working Group folder</strong></h2>
 
 This thesaurus is defined in our PLDN VocBench environment:
 
