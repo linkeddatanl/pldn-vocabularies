@@ -18,4 +18,4 @@ Anyone can submit issues for this thesaurus. Please use one of the following iss
 
 The work and review process for the PLDN Thesaurus Best Practices document that accompanies the PLDN Thesaurus is described in the following repository:
 
-https://github.com/linkeddatanl/pldn-best-practices/pldn-thesaurus-best-practices
+https://github.com/linkeddatanl/pldn-best-practices/tree/main/pldn-thesaurus-best-practices
