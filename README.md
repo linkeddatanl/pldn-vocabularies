@@ -19,4 +19,4 @@ This repository contains the relevant development documentation for the PLDN Voc
 
 <H2>Related repository</H2>
 
-- PLDN Best Practices: with e.g. the PLDN Thesaurus Best Practices document (when available)
+- [PLDN Best Practices](https://github.com/linkeddatanl/pldn-best-practices): with e.g. the PLDN Thesaurus Best Practices document (when available)
