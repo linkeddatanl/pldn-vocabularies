@@ -12,7 +12,7 @@ Anyone can submit issues for this thesaurus. Please use one of the following iss
 - <strong>Concepts -</strong> : Suggestions for new concepts and improved concept definitions<br>
 - <strong>Alignment -</strong> : Suggestions for new mappings to external linked data sources<br>
 - <strong>Hierarchical structure -</strong> : Suggestions for improved concept classification<br>
-- <strong>Thematic structure -</strong> : Suggestions for improved concept grouping<br>
+- <strong>Thematic structure -</strong> : Suggestions for improved concept grouping (not applicable yet)<br>
 
 <h2><strong>PLDN Thesaurus Best Practices</strong></h2>
 
