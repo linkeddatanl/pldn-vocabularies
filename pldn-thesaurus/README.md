@@ -16,6 +16,6 @@ Anyone can submit issues for this thesaurus. Please use one of the following iss
 
 <h2><strong>PLDN Thesaurus Best Practices</strong></h2>
 
-The work and review process for the PLDN Thesaurus Best Practices document that accompanies the PLDN Thesaurus is described in the following repository:
+The work and review process for the PLDN Thesaurus Best Practices document that accompanies the PLDN Thesaurus will be described in the following repository:
 
 https://github.com/linkeddatanl/pldn-best-practices/tree/main/pldn-thesaurus-best-practices
