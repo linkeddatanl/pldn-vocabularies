@@ -4,7 +4,7 @@ This repository is part of the PLDN activities for the <strong>[PLDN Linked Data
 
 <H2>PLDN Linked Data Thesaurus Working Group</H2>
 
-The terminology that is used in the Linked Data domain consists of many specialized terms, abbreviations and acronyms that makes it hard for persons new to Linked Data to understand what Linked Data is about and what you can do with it to e.g. overcome data integration barriers (the data silo problem). 
+The terminology that is used in the Linked Data domain consists of many specialized terms, abbreviations and acronyms that makes it hard for persons new to Linked Data to understand what Linked Data is about and what you can do with it to overcome e.g. data integration barriers (the data silo problem). 
 
 There is large communication gap (<em>semantic gap</em>) between Linked Data experts and non-experts that the <strong>PLDN Linked Data Thesaurus Working Group</strong> would like to solve via a new and up-to-date <strong>PLDN Linked Data Thesaurus</strong> that defines 30% of the Linked Data terms that we use 90% of the time (a minimal set of the most relevant terms). Not only will each term have a short, clear and concise definition, it will also have references to existing definitions in [DBpedia](https://wiki.dbpedia.org/) and [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) and it will have references to additional information from authorative sources like [W3C](https://www.w3.org/2013/data/), the [Dutch Standardization Forum](https://forumstandaardisatie.nl/), etc. And the Linked Data Thesaurus will also have a hierarchical and thematic structure that would make terms, abbreviations and acronyms as accessible and findable as possible.
 
