@@ -1,0 +1,82 @@
+##################################################################################################
+#
+#  Section 1/4 - Definitions of the prefixes of the (re)used vocabularies
+#
+##################################################################################################
+
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix isothes: <http://purl.org/iso25964/skos-thes#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema: <http://schema.org> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix pco: <https://data.pldn.nl/pldn/vocabularies/CommunityOntology/id/> .
+@prefix ppo: <https://data.pldn.nl/pldn/vocabularies/PublicationOntology/id/> .
+@prefix pt: <https://data.pldn.nl/pldn/vocabularies/Thesaurus/id/> .
+
+##################################################################################################
+#
+#  Section 2/4 - Definitions of the meta and provenance data
+#
+##################################################################################################
+
+<https://data.pldn.nl/pldn/vocabularies/PublicationOntology>
+  a owl:Ontology ;
+  rdfs:label "PLDN Publication Ontology"@en , "PLDN Publicatie Ontologie"@nl ;
+  rdfs:comment "This PLDN vocabulary formally defines the model of the publications of PLDN"@en ;
+  rdfs:comment "Deze PLDN vocabulaire definieert formeel het model van de PLDN publicaties van PLDN"@nl ;
+  dcterms:publisher <https://data.pldn.nl/pldn/vocabularies/CommunityOntology/id/PLDN> ;
+  dcterms:creator <https://data.pldn.nl/pldn/pldn/vocabularies/Community/Ontology/id/PldnThesaurusWG> ;
+  dcterms:contributor <https://data.pldn.nl/pldn/vocabularies/CommunityOntology/id/PieterVanEverdingen> ;
+  owl:versionInfo "0.3"^^xsd:string ;
+  owl:versionIRI <https://data.pldn.nl/pldn/vocabularies/PublicationOntology/0.3> ;
+  owl:priorVersion <https://data.pldn.nl/pldn/vocabularies/PublicationOntology/0.1> ;
+  adms:versionNotes "This is the first review version of this PLDN vocabulary"@en ;
+  adms:versionNotes "Dit is de eerste reviewversie van deze PLDN vocabulaire"@nl ;
+  adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+  dcterms:created "2020-05-28"^^xsd:date ;
+  dcterms:modified "2020-11-04"^^xsd:date ;
+  dcterms:issued "2020-11-09"^^xsd:date ;
+  dcterms:license <http://opendatacommons.org/licenses/by/1.0/> ;
+  cc:attributionName <https://data.pldn.nl/pldn/vocabularies/CommunityOntology/id/PLDN> ;
+  cc:attributionURL <https://www.pldn.nl> ;
+  schema:usageInfo "This PLDN vocabulary is completely open for re-use and updates"@en ;
+  schema:usageInfo "Deze PLDN vocabulaire is voledig open voor hergebruik en aanpassingen"@nl ;
+  cc:morePermissions <mailto:info@pldn.nl> ;
+  void:inDataset <https://data.pldn.nl/pldn/void.ttl#ppo> ;
+.
+
+##################################################################################################
+#
+#  Section 3/4 - Definitions of the properties (not in this version)
+#
+##################################################################################################
+
+
+##################################################################################################
+#
+#  Section 4/4 - Definitions of the classes (for the thematic structure in the PLDN Thesaurus)
+#
+##################################################################################################
+
+ppo:Theme
+  a owl:Class ;
+  rdfs:subClassOf isothes:ConceptGroup ;
+  rdfs:label "Theme"@en , "Thema"@nl ;
+  dcterms:subject pt:Theme ;
+  rdfs:comment "Custom class that can be used to define the main themes for the thematic structure in the PLDN Thesaurus"@en ;
+  rdfs:comment "Zelfgedefinieerde class waarmee de hoofdthema's voor de thematische structuur in de PLDN Thesaurus gedefinieerd kunnen worden"@nl ;
+.
+ppo:SubTheme
+  a owl:Class ;
+  rdfs:subClassOf isothes:ConceptGroup, ppo:Theme ;
+  rdfs:label "Sub theme"@en , "Subthema"@nl ;
+  dcterms:subject pt:SubTheme ;
+  rdfs:comment "Custom class that can be used to define the sub themes under the main themes for the thematic structure in the PLDN Thesaurus"@en ;
+  rdfs:comment "Zelfgedefinieerde class waarmee de subthema's onder de hoofdthema's voor de thematische structuur in de PLDN Thesaurus gedefinieerd kunnen worden"@nl ;
+.
